@@ -28,7 +28,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Give permission to execute
-      run: chmod +x ./gradlew     
+      run: chmod +x ./pom.xml     
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 
